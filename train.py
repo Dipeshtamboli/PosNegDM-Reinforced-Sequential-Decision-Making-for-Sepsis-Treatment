@@ -1,6 +1,3 @@
-# dying = (8 x 5321 + 10 x 563) / 100 = 8.19%
-# CUDA_VISIBLE_DEVICES=3 py train.py
-
 '''
 Max values of each state feature:
 [ 1.1232,  1.3067,  5.9830,  3.5872,  1.5957,  4.0416,  0.7043,  3.3338,
