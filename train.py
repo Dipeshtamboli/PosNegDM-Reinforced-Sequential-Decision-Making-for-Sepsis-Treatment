@@ -1,14 +1,3 @@
-'''
-Max values of each state feature:
-[ 1.1232,  1.3067,  5.9830,  3.5872,  1.5957,  4.0416,  0.7043,  3.3338,
-2.8874,  1.8778,  2.7178,  2.0871,  3.6484,  2.9574,  3.4547,  4.5742,
-5.0497,  7.7073,  4.9629,  3.1343,  2.5413,  3.1613,  4.5614,  4.8637,
-11.4957,  2.7768,  3.5611,  5.0424,  3.9901,  3.5258,  7.2143,  4.5747,
-2.2796,  3.8313,  5.9374,  9.8243,  1.1287,  2.8408,  2.7121,  4.7237,
-4.6373,  3.4784,  6.3116,  1.3557,  1.5447,  1.4155,  1.1041]
-'''
-
-
 import numpy as np
 import torch
 import torch.nn as nn
@@ -40,8 +29,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu") ## specify
 
 def experiment(variant):
 
-	exp_name = "mse: 1_08_1"
-	description_string = f"New hope: calculating state prediction error as well"
+	exp_name = "1_08_1"
+	description_string = f"Ablation_alpha_beta_gamma"
 
 	log_txt = f"logs_text_mse/{exp_name}.txt"
 	def write_to_file(string_to_write, print_it=True):
