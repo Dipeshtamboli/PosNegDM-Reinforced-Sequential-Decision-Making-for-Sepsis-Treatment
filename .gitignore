@@ -1,2 +1,5 @@
 # ignore pycache
 __pycache__/
+
+# ignore the datafile
+data/sepsis_final_data_withTimes.csv

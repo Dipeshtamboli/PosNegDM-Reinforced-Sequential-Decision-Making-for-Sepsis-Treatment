@@ -26,13 +26,16 @@ torch.backends.cudnn.benchmark = False
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu") ## specify the GPU id's, GPU id's start from 0.
 # device = variant.get('device', 'cuda')
 
+logs_folder = 'txt_logs'
 
 def experiment(variant):
 
 	exp_name = "1_08_1"
 	description_string = f"Ablation_alpha_beta_gamma"
 
-	log_txt = f"logs_text_mse/{exp_name}.txt"
+	log_txt = f"{logs_folder}/{exp_name}.txt"
+	if not os.path.exists(logs_folder):
+		os.makedirs(logs_folder)
 	def write_to_file(string_to_write, print_it=True):
 		write_f = open(f"{log_txt}", "a")
 		write_f.write(f"{string_to_write}\n")
