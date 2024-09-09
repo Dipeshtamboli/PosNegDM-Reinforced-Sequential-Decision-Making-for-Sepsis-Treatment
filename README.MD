@@ -44,3 +44,15 @@ python train.py
    - Emphasizes the importance of deploying the model in clinical practice and integrating it with existing healthcare systems for seamless implementation.
 
 Overall, the paper aims to revolutionize sepsis treatment by introducing a data-driven and personalized approach that leverages machine learning to optimize treatment decisions, improve patient outcomes, and contribute to enhanced patient care in the context of sepsis management.
+
+## Citation
+
+```
+@article{tamboli2024reinforced,
+  title={Reinforced Sequential Decision-Making for Sepsis Treatment: The POSNEGDM Framework with Mortality Classifier and Transformer},
+  author={Tamboli, Dipesh and Chen, Jiayu and Jotheeswaran, Kiran Pranesh and Yu, Denny and Aggarwal, Vaneet},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2024},
+  publisher={IEEE}
+}
+```
