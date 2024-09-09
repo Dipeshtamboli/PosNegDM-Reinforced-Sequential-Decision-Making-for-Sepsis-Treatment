@@ -4,7 +4,26 @@ This folder contains the code for the paper "Reinforced Sequential Decision-Maki
 
 The paper titled "Sepsis Treatment Using Machine Learning: A Transformer-Based Decision-Making Framework" introduces a novel approach to sepsis treatment by leveraging machine learning techniques. The primary focus of the paper is to address the challenges associated with sepsis management, a life-threatening condition with high mortality rates, by proposing the POSNEGDM framework.
 
-Key contributions and actions of the paper include:
+## Using this code
+
+To use this code, you will need to install the required dependencies. You can do this by running the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+We have provided a sample dataset in the `data` folder for demonstration purposes. You can replace this dataset with the actual data from [https://physionet.org/content/mimiciii/1.4/](https://physionet.org/content/mimiciii/1.4/). We cannot provide the actual data due to licensing restrictions.
+
+
+Once you have installed the dependencies and prepared the data, you can run the code by executing the following command:
+
+```bash
+python train.py
+```
+
+
+
+## Key contributions and actions of the paper include:
 1. **Introduction of POSNEGDM Framework**:
    - Introduces the POSNEGDM framework, which stands for "Reinforcement Learning with Positive and Negative Demonstrations for Sequential Decision-Making."
    - Utilizes a transformer-based model and a mortality classifier to optimize treatment decisions for sepsis patients.
