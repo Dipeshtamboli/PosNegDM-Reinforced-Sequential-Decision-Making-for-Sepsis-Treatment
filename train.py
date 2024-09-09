@@ -7,10 +7,10 @@ import argparse
 import random, datetime
 from utils import read_dst, discount_cumsum
 
-from decision_transformer.models.decision_transformer import DecisionTransformer
-from decision_transformer.models.mlp_bc import MLPBCModel
-from decision_transformer.training.act_trainer import ActTrainer
-from decision_transformer.training.seq_trainer import SequenceTrainer
+from dualsight.models.decision_transformer import DecisionTransformer
+from dualsight.models.mlp_bc import MLPBCModel
+from dualsight.training.act_trainer import ActTrainer
+from dualsight.training.seq_trainer import SequenceTrainer
 # from tensorboardX import SummaryWriter
 
 seed_val = 1

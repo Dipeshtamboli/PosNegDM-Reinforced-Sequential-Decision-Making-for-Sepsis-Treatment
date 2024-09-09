@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from utils import get_accuracy
 
-from decision_transformer.training.trainer import Trainer
+from dualsight.training.trainer import Trainer
 
 
 class ActTrainer(Trainer):
