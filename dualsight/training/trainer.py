@@ -81,7 +81,7 @@ class Trainer:
         nn_model = Mortality(47)
         # path = 'model.load_state_dict(torch.load('/home/amridul/mimic/RL-for-Sepsis/feedback_classifier_DT/nnclsfier/NNMortalityborder.pth'))'
         # nn_model.load_state_dict(torch.load('nn_model/NNmodel500.pt'))
-        model_path = "/home/dipesh/feedback_classifier_DT/nnclsfier/NNfinal.pth"
+        model_path = "data/NNfinal.pth"
         nn_model.load_state_dict(torch.load(model_path))
         nn_model.cuda()
         nn_model.eval()

@@ -3,3 +3,6 @@ __pycache__/
 
 # ignore the datafile
 data/sepsis_final_data_withTimes.csv
+
+# ignore logs
+logs/
