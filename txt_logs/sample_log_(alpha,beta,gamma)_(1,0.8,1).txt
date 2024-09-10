@@ -1,0 +1,1803 @@
+############################################################################
+|| INFO || 2024-09-10 00:33:57.602519
+|| INFO || Ablation_alpha_beta_gamma
+### ###
+Step: 0/10000
+Training loss: 4.793 Accuracy: 0.035
+State loss: 1.410
+Error rate Max Div (state_loss/max(states_gt)): 0.123 x100%
+Error rate RMSPE: 72.921 x100%
+Test loss: 3.219 Test accuracy: 0.039
+Neg Test loss: 3.219 Neg Test accuracy: 0.048
+Pos Test loss: 3.218 Pos Test accuracy: 0.043
+=> Patients dying in the last state (originally surviving) : 0.085, count: 48/563
+=> Patients dying in the last state (originally dying) : 0.057, count: 32/563
+=> Patients dying in any state (originally surviving) : 0.584, count: 329/563
+=> Patients dying in any state (originally dying) : 0.620, count: 349/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.080, count: 45/563
+=> Patients dying in the last state (originally dying) : 0.027, count: 15/563
+=> Patients dying in any state (originally surviving) : 0.698, count: 393/563
+=> Patients dying in any state (originally dying) : 0.544, count: 306/563
+### ###
+Step: 2000/10000
+Training loss: 3.886 Accuracy: 0.400
+State loss: 0.874
+Error rate Max Div (state_loss/max(states_gt)): 0.065 x100%
+Error rate RMSPE: 154.554 x100%
+Test loss: 2.871 Test accuracy: 0.435
+Neg Test loss: 3.052 Neg Test accuracy: 0.261
+Pos Test loss: 2.868 Pos Test accuracy: 0.439
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in any state (originally dying) : 0.028, count: 16/563
+### ###
+Step: 4000/10000
+Training loss: 3.376 Accuracy: 0.617
+State loss: 0.481
+Error rate Max Div (state_loss/max(states_gt)): 0.040 x100%
+Error rate RMSPE: 103.365 x100%
+Test loss: 2.633 Test accuracy: 0.687
+Neg Test loss: 2.832 Neg Test accuracy: 0.474
+Pos Test loss: 2.592 Pos Test accuracy: 0.724
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.014, count: 8/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.011, count: 6/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 6000/10000
+Training loss: 3.070 Accuracy: 0.731
+State loss: 0.269
+Error rate Max Div (state_loss/max(states_gt)): 0.047 x100%
+Error rate RMSPE: 113.046 x100%
+Test loss: 2.514 Test accuracy: 0.789
+Neg Test loss: 2.694 Neg Test accuracy: 0.608
+Pos Test loss: 2.500 Pos Test accuracy: 0.798
+=> Patients dying in the last state (originally surviving) : 0.014, count: 8/563
+=> Patients dying in the last state (originally dying) : 0.007, count: 4/563
+=> Patients dying in any state (originally surviving) : 0.030, count: 17/563
+=> Patients dying in any state (originally dying) : 0.037, count: 21/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.018, count: 10/563
+=> Patients dying in any state (originally dying) : 0.005, count: 3/563
+### ###
+Step: 8000/10000
+Training loss: 3.074 Accuracy: 0.693
+State loss: 0.216
+Error rate Max Div (state_loss/max(states_gt)): 0.029 x100%
+Error rate RMSPE: 144.389 x100%
+Test loss: 2.462 Test accuracy: 0.830
+Neg Test loss: 2.648 Neg Test accuracy: 0.651
+Pos Test loss: 2.470 Pos Test accuracy: 0.821
+=> Patients dying in the last state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in the last state (originally dying) : 0.036, count: 20/563
+=> Patients dying in any state (originally surviving) : 0.023, count: 13/563
+=> Patients dying in any state (originally dying) : 0.053, count: 30/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.005, count: 3/563
+### ###
+Step: 0/10000
+Training loss: 2.973 Accuracy: 0.773
+State loss: 0.195
+Error rate Max Div (state_loss/max(states_gt)): 0.014 x100%
+Error rate RMSPE: 52.259 x100%
+Test loss: 2.446 Test accuracy: 0.844
+Neg Test loss: 2.598 Neg Test accuracy: 0.710
+Pos Test loss: 2.429 Pos Test accuracy: 0.860
+=> Patients dying in the last state (originally surviving) : 0.016, count: 9/563
+=> Patients dying in the last state (originally dying) : 0.041, count: 23/563
+=> Patients dying in any state (originally surviving) : 0.027, count: 15/563
+=> Patients dying in any state (originally dying) : 0.067, count: 38/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.016, count: 9/563
+=> Patients dying in any state (originally dying) : 0.007, count: 4/563
+### ###
+Step: 2000/10000
+Training loss: 2.859 Accuracy: 0.831
+State loss: 0.152
+Error rate Max Div (state_loss/max(states_gt)): 0.019 x100%
+Error rate RMSPE: 482.617 x100%
+Test loss: 2.431 Test accuracy: 0.860
+Neg Test loss: 2.555 Neg Test accuracy: 0.747
+Pos Test loss: 2.409 Pos Test accuracy: 0.881
+=> Patients dying in the last state (originally surviving) : 0.050, count: 28/563
+=> Patients dying in the last state (originally dying) : 0.069, count: 39/563
+=> Patients dying in any state (originally surviving) : 0.069, count: 39/563
+=> Patients dying in any state (originally dying) : 0.085, count: 48/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.016, count: 9/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.028, count: 16/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 4000/10000
+Training loss: 2.848 Accuracy: 0.851
+State loss: 0.146
+Error rate Max Div (state_loss/max(states_gt)): 0.016 x100%
+Error rate RMSPE: 94.313 x100%
+Test loss: 2.422 Test accuracy: 0.867
+Neg Test loss: 2.541 Neg Test accuracy: 0.753
+Pos Test loss: 2.403 Pos Test accuracy: 0.884
+=> Patients dying in the last state (originally surviving) : 0.021, count: 12/563
+=> Patients dying in the last state (originally dying) : 0.060, count: 34/563
+=> Patients dying in any state (originally surviving) : 0.032, count: 18/563
+=> Patients dying in any state (originally dying) : 0.069, count: 39/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 6000/10000
+Training loss: 2.846 Accuracy: 0.827
+State loss: 0.123
+Error rate Max Div (state_loss/max(states_gt)): 0.019 x100%
+Error rate RMSPE: 120.329 x100%
+Test loss: 2.408 Test accuracy: 0.882
+Neg Test loss: 2.529 Neg Test accuracy: 0.766
+Pos Test loss: 2.387 Pos Test accuracy: 0.901
+=> Patients dying in the last state (originally surviving) : 0.039, count: 22/563
+=> Patients dying in the last state (originally dying) : 0.098, count: 55/563
+=> Patients dying in any state (originally surviving) : 0.053, count: 30/563
+=> Patients dying in any state (originally dying) : 0.108, count: 61/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 8000/10000
+Training loss: 2.816 Accuracy: 0.834
+State loss: 0.141
+Error rate Max Div (state_loss/max(states_gt)): 0.011 x100%
+Error rate RMSPE: 78.370 x100%
+Test loss: 2.413 Test accuracy: 0.874
+Neg Test loss: 2.503 Neg Test accuracy: 0.794
+Pos Test loss: 2.393 Pos Test accuracy: 0.895
+=> Patients dying in the last state (originally surviving) : 0.059, count: 33/563
+=> Patients dying in the last state (originally dying) : 0.087, count: 49/563
+=> Patients dying in any state (originally surviving) : 0.075, count: 42/563
+=> Patients dying in any state (originally dying) : 0.096, count: 54/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 0/10000
+Training loss: 2.804 Accuracy: 0.876
+State loss: 0.119
+Error rate Max Div (state_loss/max(states_gt)): 0.014 x100%
+Error rate RMSPE: 145.113 x100%
+Test loss: 2.411 Test accuracy: 0.875
+Neg Test loss: 2.494 Neg Test accuracy: 0.797
+Pos Test loss: 2.401 Pos Test accuracy: 0.887
+=> Patients dying in the last state (originally surviving) : 0.037, count: 21/563
+=> Patients dying in the last state (originally dying) : 0.076, count: 43/563
+=> Patients dying in any state (originally surviving) : 0.043, count: 24/563
+=> Patients dying in any state (originally dying) : 0.087, count: 49/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.009, count: 5/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 2000/10000
+Training loss: 2.799 Accuracy: 0.856
+State loss: 0.109
+Error rate Max Div (state_loss/max(states_gt)): 0.017 x100%
+Error rate RMSPE: 76.916 x100%
+Test loss: 2.411 Test accuracy: 0.875
+Neg Test loss: 2.488 Neg Test accuracy: 0.803
+Pos Test loss: 2.394 Pos Test accuracy: 0.892
+=> Patients dying in the last state (originally surviving) : 0.048, count: 27/563
+=> Patients dying in the last state (originally dying) : 0.067, count: 38/563
+=> Patients dying in any state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in any state (originally dying) : 0.078, count: 44/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 4000/10000
+Training loss: 2.837 Accuracy: 0.850
+State loss: 0.116
+Error rate Max Div (state_loss/max(states_gt)): 0.012 x100%
+Error rate RMSPE: 69.767 x100%
+Test loss: 2.394 Test accuracy: 0.893
+Neg Test loss: 2.479 Neg Test accuracy: 0.815
+Pos Test loss: 2.386 Pos Test accuracy: 0.901
+=> Patients dying in the last state (originally surviving) : 0.059, count: 33/563
+=> Patients dying in the last state (originally dying) : 0.087, count: 49/563
+=> Patients dying in any state (originally surviving) : 0.071, count: 40/563
+=> Patients dying in any state (originally dying) : 0.099, count: 56/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 6000/10000
+Training loss: 2.805 Accuracy: 0.860
+State loss: 0.103
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 88.955 x100%
+Test loss: 2.393 Test accuracy: 0.894
+Neg Test loss: 2.458 Neg Test accuracy: 0.836
+Pos Test loss: 2.372 Pos Test accuracy: 0.915
+=> Patients dying in the last state (originally surviving) : 0.027, count: 15/563
+=> Patients dying in the last state (originally dying) : 0.092, count: 52/563
+=> Patients dying in any state (originally surviving) : 0.039, count: 22/563
+=> Patients dying in any state (originally dying) : 0.105, count: 59/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.009, count: 5/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 8000/10000
+Training loss: 2.770 Accuracy: 0.909
+State loss: 0.100
+Error rate Max Div (state_loss/max(states_gt)): 0.010 x100%
+Error rate RMSPE: 78.255 x100%
+Test loss: 2.368 Test accuracy: 0.920
+Neg Test loss: 2.444 Neg Test accuracy: 0.852
+Pos Test loss: 2.365 Pos Test accuracy: 0.922
+=> Patients dying in the last state (originally surviving) : 0.043, count: 24/563
+=> Patients dying in the last state (originally dying) : 0.060, count: 34/563
+=> Patients dying in any state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in any state (originally dying) : 0.066, count: 37/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 0/10000
+Training loss: 2.750 Accuracy: 0.919
+State loss: 0.100
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 98.903 x100%
+Test loss: 2.374 Test accuracy: 0.913
+Neg Test loss: 2.443 Neg Test accuracy: 0.851
+Pos Test loss: 2.370 Pos Test accuracy: 0.918
+=> Patients dying in the last state (originally surviving) : 0.041, count: 23/563
+=> Patients dying in the last state (originally dying) : 0.098, count: 55/563
+=> Patients dying in any state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in any state (originally dying) : 0.108, count: 61/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.012, count: 7/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 2000/10000
+Training loss: 2.778 Accuracy: 0.927
+State loss: 0.127
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 46.469 x100%
+Test loss: 2.367 Test accuracy: 0.922
+Neg Test loss: 2.431 Neg Test accuracy: 0.860
+Pos Test loss: 2.361 Pos Test accuracy: 0.927
+=> Patients dying in the last state (originally surviving) : 0.036, count: 20/563
+=> Patients dying in the last state (originally dying) : 0.096, count: 54/563
+=> Patients dying in any state (originally surviving) : 0.046, count: 26/563
+=> Patients dying in any state (originally dying) : 0.108, count: 61/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 4000/10000
+Training loss: 2.747 Accuracy: 0.909
+State loss: 0.103
+Error rate Max Div (state_loss/max(states_gt)): 0.013 x100%
+Error rate RMSPE: 100.184 x100%
+Test loss: 2.360 Test accuracy: 0.927
+Neg Test loss: 2.427 Neg Test accuracy: 0.866
+Pos Test loss: 2.362 Pos Test accuracy: 0.926
+=> Patients dying in the last state (originally surviving) : 0.036, count: 20/563
+=> Patients dying in the last state (originally dying) : 0.099, count: 56/563
+=> Patients dying in any state (originally surviving) : 0.043, count: 24/563
+=> Patients dying in any state (originally dying) : 0.110, count: 62/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 6000/10000
+Training loss: 2.757 Accuracy: 0.921
+State loss: 0.094
+Error rate Max Div (state_loss/max(states_gt)): 0.009 x100%
+Error rate RMSPE: 68.682 x100%
+Test loss: 2.378 Test accuracy: 0.910
+Neg Test loss: 2.426 Neg Test accuracy: 0.864
+Pos Test loss: 2.358 Pos Test accuracy: 0.928
+=> Patients dying in the last state (originally surviving) : 0.034, count: 19/563
+=> Patients dying in the last state (originally dying) : 0.076, count: 43/563
+=> Patients dying in any state (originally surviving) : 0.048, count: 27/563
+=> Patients dying in any state (originally dying) : 0.089, count: 50/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.011, count: 6/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 8000/10000
+Training loss: 2.754 Accuracy: 0.908
+State loss: 0.088
+Error rate Max Div (state_loss/max(states_gt)): 0.013 x100%
+Error rate RMSPE: 107.786 x100%
+Test loss: 2.368 Test accuracy: 0.921
+Neg Test loss: 2.429 Neg Test accuracy: 0.862
+Pos Test loss: 2.353 Pos Test accuracy: 0.935
+=> Patients dying in the last state (originally surviving) : 0.043, count: 24/563
+=> Patients dying in the last state (originally dying) : 0.067, count: 38/563
+=> Patients dying in any state (originally surviving) : 0.053, count: 30/563
+=> Patients dying in any state (originally dying) : 0.078, count: 44/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 0/10000
+Training loss: 2.775 Accuracy: 0.898
+State loss: 0.088
+Error rate Max Div (state_loss/max(states_gt)): 0.012 x100%
+Error rate RMSPE: 49.474 x100%
+Test loss: 2.371 Test accuracy: 0.917
+Neg Test loss: 2.427 Neg Test accuracy: 0.862
+Pos Test loss: 2.361 Pos Test accuracy: 0.926
+=> Patients dying in the last state (originally surviving) : 0.069, count: 39/563
+=> Patients dying in the last state (originally dying) : 0.082, count: 46/563
+=> Patients dying in any state (originally surviving) : 0.087, count: 49/563
+=> Patients dying in any state (originally dying) : 0.089, count: 50/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 2000/10000
+Training loss: 2.754 Accuracy: 0.919
+State loss: 0.114
+Error rate Max Div (state_loss/max(states_gt)): 0.003 x100%
+Error rate RMSPE: 87.254 x100%
+Test loss: 2.383 Test accuracy: 0.903
+Neg Test loss: 2.431 Neg Test accuracy: 0.860
+Pos Test loss: 2.362 Pos Test accuracy: 0.924
+=> Patients dying in the last state (originally surviving) : 0.028, count: 16/563
+=> Patients dying in the last state (originally dying) : 0.080, count: 45/563
+=> Patients dying in any state (originally surviving) : 0.032, count: 18/563
+=> Patients dying in any state (originally dying) : 0.091, count: 51/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 4000/10000
+Training loss: 2.741 Accuracy: 0.927
+State loss: 0.091
+Error rate Max Div (state_loss/max(states_gt)): 0.011 x100%
+Error rate RMSPE: 81.646 x100%
+Test loss: 2.361 Test accuracy: 0.925
+Neg Test loss: 2.430 Neg Test accuracy: 0.859
+Pos Test loss: 2.367 Pos Test accuracy: 0.920
+=> Patients dying in the last state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in the last state (originally dying) : 0.098, count: 55/563
+=> Patients dying in any state (originally surviving) : 0.080, count: 45/563
+=> Patients dying in any state (originally dying) : 0.112, count: 63/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 6000/10000
+Training loss: 2.727 Accuracy: 0.926
+State loss: 0.083
+Error rate Max Div (state_loss/max(states_gt)): 0.009 x100%
+Error rate RMSPE: 89.224 x100%
+Test loss: 2.364 Test accuracy: 0.922
+Neg Test loss: 2.433 Neg Test accuracy: 0.857
+Pos Test loss: 2.350 Pos Test accuracy: 0.937
+=> Patients dying in the last state (originally surviving) : 0.039, count: 22/563
+=> Patients dying in the last state (originally dying) : 0.071, count: 40/563
+=> Patients dying in any state (originally surviving) : 0.039, count: 22/563
+=> Patients dying in any state (originally dying) : 0.078, count: 44/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 8000/10000
+Training loss: 2.727 Accuracy: 0.924
+State loss: 0.079
+Error rate Max Div (state_loss/max(states_gt)): 0.014 x100%
+Error rate RMSPE: 71.181 x100%
+Test loss: 2.371 Test accuracy: 0.916
+Neg Test loss: 2.435 Neg Test accuracy: 0.855
+Pos Test loss: 2.353 Pos Test accuracy: 0.933
+=> Patients dying in the last state (originally surviving) : 0.046, count: 26/563
+=> Patients dying in the last state (originally dying) : 0.080, count: 45/563
+=> Patients dying in any state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in any state (originally dying) : 0.089, count: 50/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 0/10000
+Training loss: 2.746 Accuracy: 0.916
+State loss: 0.090
+Error rate Max Div (state_loss/max(states_gt)): 0.009 x100%
+Error rate RMSPE: 68.013 x100%
+Test loss: 2.366 Test accuracy: 0.921
+Neg Test loss: 2.430 Neg Test accuracy: 0.860
+Pos Test loss: 2.351 Pos Test accuracy: 0.935
+=> Patients dying in the last state (originally surviving) : 0.025, count: 14/563
+=> Patients dying in the last state (originally dying) : 0.066, count: 37/563
+=> Patients dying in any state (originally surviving) : 0.030, count: 17/563
+=> Patients dying in any state (originally dying) : 0.076, count: 43/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 2000/10000
+Training loss: 2.734 Accuracy: 0.926
+State loss: 0.085
+Error rate Max Div (state_loss/max(states_gt)): 0.008 x100%
+Error rate RMSPE: 34.371 x100%
+Test loss: 2.362 Test accuracy: 0.922
+Neg Test loss: 2.429 Neg Test accuracy: 0.858
+Pos Test loss: 2.359 Pos Test accuracy: 0.927
+=> Patients dying in the last state (originally surviving) : 0.044, count: 25/563
+=> Patients dying in the last state (originally dying) : 0.083, count: 47/563
+=> Patients dying in any state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in any state (originally dying) : 0.098, count: 55/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 4000/10000
+Training loss: 2.735 Accuracy: 0.915
+State loss: 0.082
+Error rate Max Div (state_loss/max(states_gt)): 0.010 x100%
+Error rate RMSPE: 63.385 x100%
+Test loss: 2.357 Test accuracy: 0.930
+Neg Test loss: 2.426 Neg Test accuracy: 0.863
+Pos Test loss: 2.357 Pos Test accuracy: 0.930
+=> Patients dying in the last state (originally surviving) : 0.030, count: 17/563
+=> Patients dying in the last state (originally dying) : 0.078, count: 44/563
+=> Patients dying in any state (originally surviving) : 0.041, count: 23/563
+=> Patients dying in any state (originally dying) : 0.089, count: 50/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 6000/10000
+Training loss: 2.741 Accuracy: 0.918
+State loss: 0.088
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 101.945 x100%
+Test loss: 2.359 Test accuracy: 0.927
+Neg Test loss: 2.432 Neg Test accuracy: 0.856
+Pos Test loss: 2.356 Pos Test accuracy: 0.930
+=> Patients dying in the last state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in the last state (originally dying) : 0.089, count: 50/563
+=> Patients dying in any state (originally surviving) : 0.067, count: 38/563
+=> Patients dying in any state (originally dying) : 0.101, count: 57/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 8000/10000
+Training loss: 2.710 Accuracy: 0.946
+State loss: 0.080
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 54.383 x100%
+Test loss: 2.365 Test accuracy: 0.920
+Neg Test loss: 2.431 Neg Test accuracy: 0.856
+Pos Test loss: 2.357 Pos Test accuracy: 0.928
+=> Patients dying in the last state (originally surviving) : 0.059, count: 33/563
+=> Patients dying in the last state (originally dying) : 0.087, count: 49/563
+=> Patients dying in any state (originally surviving) : 0.062, count: 35/563
+=> Patients dying in any state (originally dying) : 0.098, count: 55/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 0/10000
+Training loss: 2.729 Accuracy: 0.927
+State loss: 0.077
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 86.018 x100%
+Test loss: 2.363 Test accuracy: 0.923
+Neg Test loss: 2.428 Neg Test accuracy: 0.859
+Pos Test loss: 2.356 Pos Test accuracy: 0.931
+=> Patients dying in the last state (originally surviving) : 0.067, count: 38/563
+=> Patients dying in the last state (originally dying) : 0.092, count: 52/563
+=> Patients dying in any state (originally surviving) : 0.087, count: 49/563
+=> Patients dying in any state (originally dying) : 0.101, count: 57/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 2000/10000
+Training loss: 2.713 Accuracy: 0.949
+State loss: 0.083
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 61.313 x100%
+Test loss: 2.361 Test accuracy: 0.925
+Neg Test loss: 2.432 Neg Test accuracy: 0.857
+Pos Test loss: 2.354 Pos Test accuracy: 0.931
+=> Patients dying in the last state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in the last state (originally dying) : 0.085, count: 48/563
+=> Patients dying in any state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in any state (originally dying) : 0.092, count: 52/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 4000/10000
+Training loss: 2.699 Accuracy: 0.942
+State loss: 0.078
+Error rate Max Div (state_loss/max(states_gt)): 0.008 x100%
+Error rate RMSPE: 66.309 x100%
+Test loss: 2.372 Test accuracy: 0.913
+Neg Test loss: 2.433 Neg Test accuracy: 0.854
+Pos Test loss: 2.360 Pos Test accuracy: 0.925
+=> Patients dying in the last state (originally surviving) : 0.043, count: 24/563
+=> Patients dying in the last state (originally dying) : 0.083, count: 47/563
+=> Patients dying in any state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in any state (originally dying) : 0.094, count: 53/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.009, count: 5/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 6000/10000
+Training loss: 2.715 Accuracy: 0.945
+State loss: 0.084
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 67.045 x100%
+Test loss: 2.359 Test accuracy: 0.926
+Neg Test loss: 2.427 Neg Test accuracy: 0.859
+Pos Test loss: 2.351 Pos Test accuracy: 0.935
+=> Patients dying in the last state (originally surviving) : 0.039, count: 22/563
+=> Patients dying in the last state (originally dying) : 0.078, count: 44/563
+=> Patients dying in any state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in any state (originally dying) : 0.085, count: 48/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 8000/10000
+Training loss: 2.741 Accuracy: 0.902
+State loss: 0.090
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 82.534 x100%
+Test loss: 2.360 Test accuracy: 0.928
+Neg Test loss: 2.424 Neg Test accuracy: 0.865
+Pos Test loss: 2.355 Pos Test accuracy: 0.931
+=> Patients dying in the last state (originally surviving) : 0.060, count: 34/563
+=> Patients dying in the last state (originally dying) : 0.091, count: 51/563
+=> Patients dying in any state (originally surviving) : 0.071, count: 40/563
+=> Patients dying in any state (originally dying) : 0.101, count: 57/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 0/10000
+Training loss: 2.706 Accuracy: 0.953
+State loss: 0.082
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 71.973 x100%
+Test loss: 2.364 Test accuracy: 0.922
+Neg Test loss: 2.425 Neg Test accuracy: 0.863
+Pos Test loss: 2.350 Pos Test accuracy: 0.936
+=> Patients dying in the last state (originally surviving) : 0.053, count: 30/563
+=> Patients dying in the last state (originally dying) : 0.085, count: 48/563
+=> Patients dying in any state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in any state (originally dying) : 0.091, count: 51/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 2000/10000
+Training loss: 2.728 Accuracy: 0.936
+State loss: 0.083
+Error rate Max Div (state_loss/max(states_gt)): 0.010 x100%
+Error rate RMSPE: 61.037 x100%
+Test loss: 2.371 Test accuracy: 0.913
+Neg Test loss: 2.437 Neg Test accuracy: 0.848
+Pos Test loss: 2.355 Pos Test accuracy: 0.931
+=> Patients dying in the last state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in the last state (originally dying) : 0.087, count: 49/563
+=> Patients dying in any state (originally surviving) : 0.075, count: 42/563
+=> Patients dying in any state (originally dying) : 0.094, count: 53/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.009, count: 5/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 4000/10000
+Training loss: 2.708 Accuracy: 0.942
+State loss: 0.077
+Error rate Max Div (state_loss/max(states_gt)): 0.008 x100%
+Error rate RMSPE: 55.295 x100%
+Test loss: 2.359 Test accuracy: 0.927
+Neg Test loss: 2.434 Neg Test accuracy: 0.851
+Pos Test loss: 2.366 Pos Test accuracy: 0.920
+=> Patients dying in the last state (originally surviving) : 0.071, count: 40/563
+=> Patients dying in the last state (originally dying) : 0.076, count: 43/563
+=> Patients dying in any state (originally surviving) : 0.087, count: 49/563
+=> Patients dying in any state (originally dying) : 0.087, count: 49/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 6000/10000
+Training loss: 2.751 Accuracy: 0.906
+State loss: 0.073
+Error rate Max Div (state_loss/max(states_gt)): 0.008 x100%
+Error rate RMSPE: 265.722 x100%
+Test loss: 2.378 Test accuracy: 0.908
+Neg Test loss: 2.437 Neg Test accuracy: 0.849
+Pos Test loss: 2.356 Pos Test accuracy: 0.930
+=> Patients dying in the last state (originally surviving) : 0.039, count: 22/563
+=> Patients dying in the last state (originally dying) : 0.066, count: 37/563
+=> Patients dying in any state (originally surviving) : 0.052, count: 29/563
+=> Patients dying in any state (originally dying) : 0.069, count: 39/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 8000/10000
+Training loss: 2.705 Accuracy: 0.953
+State loss: 0.077
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 74.906 x100%
+Test loss: 2.368 Test accuracy: 0.918
+Neg Test loss: 2.434 Neg Test accuracy: 0.853
+Pos Test loss: 2.355 Pos Test accuracy: 0.932
+=> Patients dying in the last state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in the last state (originally dying) : 0.085, count: 48/563
+=> Patients dying in any state (originally surviving) : 0.064, count: 36/563
+=> Patients dying in any state (originally dying) : 0.098, count: 55/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 0/10000
+Training loss: 2.727 Accuracy: 0.925
+State loss: 0.072
+Error rate Max Div (state_loss/max(states_gt)): 0.009 x100%
+Error rate RMSPE: 60.204 x100%
+Test loss: 2.364 Test accuracy: 0.922
+Neg Test loss: 2.437 Neg Test accuracy: 0.850
+Pos Test loss: 2.357 Pos Test accuracy: 0.929
+=> Patients dying in the last state (originally surviving) : 0.059, count: 33/563
+=> Patients dying in the last state (originally dying) : 0.094, count: 53/563
+=> Patients dying in any state (originally surviving) : 0.071, count: 40/563
+=> Patients dying in any state (originally dying) : 0.110, count: 62/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 2000/10000
+Training loss: 2.696 Accuracy: 0.939
+State loss: 0.068
+Error rate Max Div (state_loss/max(states_gt)): 0.009 x100%
+Error rate RMSPE: 47.558 x100%
+Test loss: 2.375 Test accuracy: 0.911
+Neg Test loss: 2.445 Neg Test accuracy: 0.841
+Pos Test loss: 2.372 Pos Test accuracy: 0.914
+=> Patients dying in the last state (originally surviving) : 0.064, count: 36/563
+=> Patients dying in the last state (originally dying) : 0.089, count: 50/563
+=> Patients dying in any state (originally surviving) : 0.085, count: 48/563
+=> Patients dying in any state (originally dying) : 0.103, count: 58/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 4000/10000
+Training loss: 2.720 Accuracy: 0.926
+State loss: 0.084
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 169.504 x100%
+Test loss: 2.366 Test accuracy: 0.920
+Neg Test loss: 2.431 Neg Test accuracy: 0.856
+Pos Test loss: 2.362 Pos Test accuracy: 0.924
+=> Patients dying in the last state (originally surviving) : 0.044, count: 25/563
+=> Patients dying in the last state (originally dying) : 0.080, count: 45/563
+=> Patients dying in any state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in any state (originally dying) : 0.094, count: 53/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 6000/10000
+Training loss: 2.701 Accuracy: 0.928
+State loss: 0.074
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 84.664 x100%
+Test loss: 2.374 Test accuracy: 0.913
+Neg Test loss: 2.436 Neg Test accuracy: 0.852
+Pos Test loss: 2.359 Pos Test accuracy: 0.928
+=> Patients dying in the last state (originally surviving) : 0.043, count: 24/563
+=> Patients dying in the last state (originally dying) : 0.089, count: 50/563
+=> Patients dying in any state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in any state (originally dying) : 0.096, count: 54/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 8000/10000
+Training loss: 2.694 Accuracy: 0.947
+State loss: 0.070
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 56.210 x100%
+Test loss: 2.358 Test accuracy: 0.927
+Neg Test loss: 2.430 Neg Test accuracy: 0.855
+Pos Test loss: 2.357 Pos Test accuracy: 0.928
+=> Patients dying in the last state (originally surviving) : 0.050, count: 28/563
+=> Patients dying in the last state (originally dying) : 0.096, count: 54/563
+=> Patients dying in any state (originally surviving) : 0.064, count: 36/563
+=> Patients dying in any state (originally dying) : 0.105, count: 59/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.009, count: 5/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 0/10000
+Training loss: 2.721 Accuracy: 0.925
+State loss: 0.089
+Error rate Max Div (state_loss/max(states_gt)): 0.004 x100%
+Error rate RMSPE: 42.292 x100%
+Test loss: 2.376 Test accuracy: 0.910
+Neg Test loss: 2.436 Neg Test accuracy: 0.850
+Pos Test loss: 2.357 Pos Test accuracy: 0.929
+=> Patients dying in the last state (originally surviving) : 0.036, count: 20/563
+=> Patients dying in the last state (originally dying) : 0.094, count: 53/563
+=> Patients dying in any state (originally surviving) : 0.043, count: 24/563
+=> Patients dying in any state (originally dying) : 0.107, count: 60/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 2000/10000
+Training loss: 2.697 Accuracy: 0.946
+State loss: 0.074
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 78.915 x100%
+Test loss: 2.365 Test accuracy: 0.921
+Neg Test loss: 2.437 Neg Test accuracy: 0.847
+Pos Test loss: 2.355 Pos Test accuracy: 0.930
+=> Patients dying in the last state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in the last state (originally dying) : 0.092, count: 52/563
+=> Patients dying in any state (originally surviving) : 0.082, count: 46/563
+=> Patients dying in any state (originally dying) : 0.107, count: 60/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 4000/10000
+Training loss: 2.688 Accuracy: 0.956
+State loss: 0.069
+Error rate Max Div (state_loss/max(states_gt)): 0.010 x100%
+Error rate RMSPE: 74.601 x100%
+Test loss: 2.363 Test accuracy: 0.921
+Neg Test loss: 2.433 Neg Test accuracy: 0.853
+Pos Test loss: 2.347 Pos Test accuracy: 0.938
+=> Patients dying in the last state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in the last state (originally dying) : 0.101, count: 57/563
+=> Patients dying in any state (originally surviving) : 0.067, count: 38/563
+=> Patients dying in any state (originally dying) : 0.114, count: 64/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 6000/10000
+Training loss: 2.686 Accuracy: 0.965
+State loss: 0.067
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 26.840 x100%
+Test loss: 2.378 Test accuracy: 0.908
+Neg Test loss: 2.445 Neg Test accuracy: 0.843
+Pos Test loss: 2.363 Pos Test accuracy: 0.923
+=> Patients dying in the last state (originally surviving) : 0.060, count: 34/563
+=> Patients dying in the last state (originally dying) : 0.103, count: 58/563
+=> Patients dying in any state (originally surviving) : 0.069, count: 39/563
+=> Patients dying in any state (originally dying) : 0.115, count: 65/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 8000/10000
+Training loss: 2.689 Accuracy: 0.955
+State loss: 0.069
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 45.978 x100%
+Test loss: 2.364 Test accuracy: 0.920
+Neg Test loss: 2.437 Neg Test accuracy: 0.850
+Pos Test loss: 2.357 Pos Test accuracy: 0.928
+=> Patients dying in the last state (originally surviving) : 0.050, count: 28/563
+=> Patients dying in the last state (originally dying) : 0.094, count: 53/563
+=> Patients dying in any state (originally surviving) : 0.060, count: 34/563
+=> Patients dying in any state (originally dying) : 0.108, count: 61/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 0/10000
+Training loss: 2.742 Accuracy: 0.915
+State loss: 0.072
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 76.116 x100%
+Test loss: 2.358 Test accuracy: 0.927
+Neg Test loss: 2.432 Neg Test accuracy: 0.855
+Pos Test loss: 2.358 Pos Test accuracy: 0.928
+=> Patients dying in the last state (originally surviving) : 0.043, count: 24/563
+=> Patients dying in the last state (originally dying) : 0.087, count: 49/563
+=> Patients dying in any state (originally surviving) : 0.050, count: 28/563
+=> Patients dying in any state (originally dying) : 0.103, count: 58/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 2000/10000
+Training loss: 2.702 Accuracy: 0.942
+State loss: 0.070
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 50.856 x100%
+Test loss: 2.362 Test accuracy: 0.924
+Neg Test loss: 2.435 Neg Test accuracy: 0.852
+Pos Test loss: 2.359 Pos Test accuracy: 0.926
+=> Patients dying in the last state (originally surviving) : 0.053, count: 30/563
+=> Patients dying in the last state (originally dying) : 0.087, count: 49/563
+=> Patients dying in any state (originally surviving) : 0.071, count: 40/563
+=> Patients dying in any state (originally dying) : 0.099, count: 56/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 4000/10000
+Training loss: 2.716 Accuracy: 0.918
+State loss: 0.068
+Error rate Max Div (state_loss/max(states_gt)): 0.012 x100%
+Error rate RMSPE: 42.178 x100%
+Test loss: 2.362 Test accuracy: 0.923
+Neg Test loss: 2.444 Neg Test accuracy: 0.842
+Pos Test loss: 2.358 Pos Test accuracy: 0.927
+=> Patients dying in the last state (originally surviving) : 0.036, count: 20/563
+=> Patients dying in the last state (originally dying) : 0.067, count: 38/563
+=> Patients dying in any state (originally surviving) : 0.044, count: 25/563
+=> Patients dying in any state (originally dying) : 0.075, count: 42/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 6000/10000
+Training loss: 2.720 Accuracy: 0.929
+State loss: 0.071
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 62.511 x100%
+Test loss: 2.363 Test accuracy: 0.923
+Neg Test loss: 2.434 Neg Test accuracy: 0.854
+Pos Test loss: 2.373 Pos Test accuracy: 0.912
+=> Patients dying in the last state (originally surviving) : 0.076, count: 43/563
+=> Patients dying in the last state (originally dying) : 0.110, count: 62/563
+=> Patients dying in any state (originally surviving) : 0.091, count: 51/563
+=> Patients dying in any state (originally dying) : 0.123, count: 69/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 8000/10000
+Training loss: 2.714 Accuracy: 0.911
+State loss: 0.071
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 52.687 x100%
+Test loss: 2.368 Test accuracy: 0.917
+Neg Test loss: 2.441 Neg Test accuracy: 0.844
+Pos Test loss: 2.368 Pos Test accuracy: 0.919
+=> Patients dying in the last state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in the last state (originally dying) : 0.080, count: 45/563
+=> Patients dying in any state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in any state (originally dying) : 0.087, count: 49/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 0/10000
+Training loss: 2.707 Accuracy: 0.933
+State loss: 0.072
+Error rate Max Div (state_loss/max(states_gt)): 0.008 x100%
+Error rate RMSPE: 28.744 x100%
+Test loss: 2.357 Test accuracy: 0.928
+Neg Test loss: 2.440 Neg Test accuracy: 0.846
+Pos Test loss: 2.351 Pos Test accuracy: 0.935
+=> Patients dying in the last state (originally surviving) : 0.067, count: 38/563
+=> Patients dying in the last state (originally dying) : 0.098, count: 55/563
+=> Patients dying in any state (originally surviving) : 0.085, count: 48/563
+=> Patients dying in any state (originally dying) : 0.112, count: 63/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 2000/10000
+Training loss: 2.699 Accuracy: 0.939
+State loss: 0.066
+Error rate Max Div (state_loss/max(states_gt)): 0.012 x100%
+Error rate RMSPE: 42.373 x100%
+Test loss: 2.360 Test accuracy: 0.925
+Neg Test loss: 2.442 Neg Test accuracy: 0.844
+Pos Test loss: 2.365 Pos Test accuracy: 0.921
+=> Patients dying in the last state (originally surviving) : 0.048, count: 27/563
+=> Patients dying in the last state (originally dying) : 0.091, count: 51/563
+=> Patients dying in any state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in any state (originally dying) : 0.108, count: 61/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 4000/10000
+Training loss: 2.698 Accuracy: 0.929
+State loss: 0.067
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 75.029 x100%
+Test loss: 2.371 Test accuracy: 0.914
+Neg Test loss: 2.441 Neg Test accuracy: 0.844
+Pos Test loss: 2.361 Pos Test accuracy: 0.925
+=> Patients dying in the last state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in the last state (originally dying) : 0.091, count: 51/563
+=> Patients dying in any state (originally surviving) : 0.062, count: 35/563
+=> Patients dying in any state (originally dying) : 0.098, count: 55/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 6000/10000
+Training loss: 2.705 Accuracy: 0.920
+State loss: 0.066
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 73.807 x100%
+Test loss: 2.361 Test accuracy: 0.924
+Neg Test loss: 2.441 Neg Test accuracy: 0.845
+Pos Test loss: 2.352 Pos Test accuracy: 0.934
+=> Patients dying in the last state (originally surviving) : 0.052, count: 29/563
+=> Patients dying in the last state (originally dying) : 0.094, count: 53/563
+=> Patients dying in any state (originally surviving) : 0.060, count: 34/563
+=> Patients dying in any state (originally dying) : 0.101, count: 57/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 8000/10000
+Training loss: 2.689 Accuracy: 0.948
+State loss: 0.067
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 82.895 x100%
+Test loss: 2.371 Test accuracy: 0.913
+Neg Test loss: 2.436 Neg Test accuracy: 0.850
+Pos Test loss: 2.359 Pos Test accuracy: 0.926
+=> Patients dying in the last state (originally surviving) : 0.050, count: 28/563
+=> Patients dying in the last state (originally dying) : 0.101, count: 57/563
+=> Patients dying in any state (originally surviving) : 0.064, count: 36/563
+=> Patients dying in any state (originally dying) : 0.121, count: 68/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 0/10000
+Training loss: 2.675 Accuracy: 0.956
+State loss: 0.059
+Error rate Max Div (state_loss/max(states_gt)): 0.009 x100%
+Error rate RMSPE: 61.973 x100%
+Test loss: 2.369 Test accuracy: 0.916
+Neg Test loss: 2.448 Neg Test accuracy: 0.838
+Pos Test loss: 2.351 Pos Test accuracy: 0.935
+=> Patients dying in the last state (originally surviving) : 0.073, count: 41/563
+=> Patients dying in the last state (originally dying) : 0.096, count: 54/563
+=> Patients dying in any state (originally surviving) : 0.082, count: 46/563
+=> Patients dying in any state (originally dying) : 0.105, count: 59/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.000, count: 0/563
+### ###
+Step: 2000/10000
+Training loss: 2.680 Accuracy: 0.957
+State loss: 0.061
+Error rate Max Div (state_loss/max(states_gt)): 0.009 x100%
+Error rate RMSPE: 45.991 x100%
+Test loss: 2.370 Test accuracy: 0.915
+Neg Test loss: 2.442 Neg Test accuracy: 0.843
+Pos Test loss: 2.364 Pos Test accuracy: 0.923
+=> Patients dying in the last state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in the last state (originally dying) : 0.101, count: 57/563
+=> Patients dying in any state (originally surviving) : 0.059, count: 33/563
+=> Patients dying in any state (originally dying) : 0.114, count: 64/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 4000/10000
+Training loss: 2.718 Accuracy: 0.935
+State loss: 0.085
+Error rate Max Div (state_loss/max(states_gt)): 0.008 x100%
+Error rate RMSPE: 70.966 x100%
+Test loss: 2.365 Test accuracy: 0.921
+Neg Test loss: 2.437 Neg Test accuracy: 0.849
+Pos Test loss: 2.360 Pos Test accuracy: 0.926
+=> Patients dying in the last state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in the last state (originally dying) : 0.089, count: 50/563
+=> Patients dying in any state (originally surviving) : 0.069, count: 39/563
+=> Patients dying in any state (originally dying) : 0.103, count: 58/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 6000/10000
+Training loss: 2.697 Accuracy: 0.948
+State loss: 0.063
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 46.036 x100%
+Test loss: 2.378 Test accuracy: 0.908
+Neg Test loss: 2.443 Neg Test accuracy: 0.841
+Pos Test loss: 2.364 Pos Test accuracy: 0.921
+=> Patients dying in the last state (originally surviving) : 0.062, count: 35/563
+=> Patients dying in the last state (originally dying) : 0.101, count: 57/563
+=> Patients dying in any state (originally surviving) : 0.076, count: 43/563
+=> Patients dying in any state (originally dying) : 0.114, count: 64/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.000, count: 0/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 8000/10000
+Training loss: 2.911 Accuracy: 0.945
+State loss: 0.337
+Error rate Max Div (state_loss/max(states_gt)): 0.002 x100%
+Error rate RMSPE: 53.290 x100%
+Test loss: 2.361 Test accuracy: 0.924
+Neg Test loss: 2.436 Neg Test accuracy: 0.849
+Pos Test loss: 2.364 Pos Test accuracy: 0.921
+=> Patients dying in the last state (originally surviving) : 0.050, count: 28/563
+=> Patients dying in the last state (originally dying) : 0.092, count: 52/563
+=> Patients dying in any state (originally surviving) : 0.062, count: 35/563
+=> Patients dying in any state (originally dying) : 0.105, count: 59/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 0/10000
+Training loss: 2.685 Accuracy: 0.923
+State loss: 0.060
+Error rate Max Div (state_loss/max(states_gt)): 0.004 x100%
+Error rate RMSPE: 47.868 x100%
+Test loss: 2.372 Test accuracy: 0.915
+Neg Test loss: 2.438 Neg Test accuracy: 0.848
+Pos Test loss: 2.364 Pos Test accuracy: 0.923
+=> Patients dying in the last state (originally surviving) : 0.064, count: 36/563
+=> Patients dying in the last state (originally dying) : 0.105, count: 59/563
+=> Patients dying in any state (originally surviving) : 0.083, count: 47/563
+=> Patients dying in any state (originally dying) : 0.119, count: 67/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 2000/10000
+Training loss: 2.711 Accuracy: 0.928
+State loss: 0.072
+Error rate Max Div (state_loss/max(states_gt)): 0.004 x100%
+Error rate RMSPE: 58.633 x100%
+Test loss: 2.366 Test accuracy: 0.919
+Neg Test loss: 2.440 Neg Test accuracy: 0.844
+Pos Test loss: 2.359 Pos Test accuracy: 0.926
+=> Patients dying in the last state (originally surviving) : 0.069, count: 39/563
+=> Patients dying in the last state (originally dying) : 0.089, count: 50/563
+=> Patients dying in any state (originally surviving) : 0.080, count: 45/563
+=> Patients dying in any state (originally dying) : 0.101, count: 57/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 4000/10000
+Training loss: 2.694 Accuracy: 0.946
+State loss: 0.062
+Error rate Max Div (state_loss/max(states_gt)): 0.009 x100%
+Error rate RMSPE: 41.478 x100%
+Test loss: 2.378 Test accuracy: 0.906
+Neg Test loss: 2.442 Neg Test accuracy: 0.843
+Pos Test loss: 2.361 Pos Test accuracy: 0.925
+=> Patients dying in the last state (originally surviving) : 0.046, count: 26/563
+=> Patients dying in the last state (originally dying) : 0.087, count: 49/563
+=> Patients dying in any state (originally surviving) : 0.059, count: 33/563
+=> Patients dying in any state (originally dying) : 0.101, count: 57/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 6000/10000
+Training loss: 2.694 Accuracy: 0.937
+State loss: 0.062
+Error rate Max Div (state_loss/max(states_gt)): 0.004 x100%
+Error rate RMSPE: 49.994 x100%
+Test loss: 2.368 Test accuracy: 0.917
+Neg Test loss: 2.441 Neg Test accuracy: 0.845
+Pos Test loss: 2.369 Pos Test accuracy: 0.915
+=> Patients dying in the last state (originally surviving) : 0.046, count: 26/563
+=> Patients dying in the last state (originally dying) : 0.091, count: 51/563
+=> Patients dying in any state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in any state (originally dying) : 0.105, count: 59/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 8000/10000
+Training loss: 2.672 Accuracy: 0.969
+State loss: 0.060
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 45.906 x100%
+Test loss: 2.367 Test accuracy: 0.918
+Neg Test loss: 2.439 Neg Test accuracy: 0.846
+Pos Test loss: 2.355 Pos Test accuracy: 0.931
+=> Patients dying in the last state (originally surviving) : 0.064, count: 36/563
+=> Patients dying in the last state (originally dying) : 0.105, count: 59/563
+=> Patients dying in any state (originally surviving) : 0.069, count: 39/563
+=> Patients dying in any state (originally dying) : 0.119, count: 67/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 0/10000
+Training loss: 2.672 Accuracy: 0.953
+State loss: 0.059
+Error rate Max Div (state_loss/max(states_gt)): 0.010 x100%
+Error rate RMSPE: 50.055 x100%
+Test loss: 2.366 Test accuracy: 0.920
+Neg Test loss: 2.439 Neg Test accuracy: 0.848
+Pos Test loss: 2.348 Pos Test accuracy: 0.938
+=> Patients dying in the last state (originally surviving) : 0.089, count: 50/563
+=> Patients dying in the last state (originally dying) : 0.098, count: 55/563
+=> Patients dying in any state (originally surviving) : 0.108, count: 61/563
+=> Patients dying in any state (originally dying) : 0.114, count: 64/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.009, count: 5/563
+=> Patients dying in any state (originally dying) : 0.005, count: 3/563
+### ###
+Step: 2000/10000
+Training loss: 2.687 Accuracy: 0.938
+State loss: 0.062
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 55.489 x100%
+Test loss: 2.389 Test accuracy: 0.896
+Neg Test loss: 2.443 Neg Test accuracy: 0.843
+Pos Test loss: 2.368 Pos Test accuracy: 0.917
+=> Patients dying in the last state (originally surviving) : 0.036, count: 20/563
+=> Patients dying in the last state (originally dying) : 0.089, count: 50/563
+=> Patients dying in any state (originally surviving) : 0.044, count: 25/563
+=> Patients dying in any state (originally dying) : 0.098, count: 55/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 4000/10000
+Training loss: 2.692 Accuracy: 0.955
+State loss: 0.066
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 47.932 x100%
+Test loss: 2.370 Test accuracy: 0.916
+Neg Test loss: 2.439 Neg Test accuracy: 0.848
+Pos Test loss: 2.366 Pos Test accuracy: 0.920
+=> Patients dying in the last state (originally surviving) : 0.062, count: 35/563
+=> Patients dying in the last state (originally dying) : 0.099, count: 56/563
+=> Patients dying in any state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in any state (originally dying) : 0.115, count: 65/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 6000/10000
+Training loss: 2.680 Accuracy: 0.960
+State loss: 0.069
+Error rate Max Div (state_loss/max(states_gt)): 0.004 x100%
+Error rate RMSPE: 46.072 x100%
+Test loss: 2.362 Test accuracy: 0.923
+Neg Test loss: 2.442 Neg Test accuracy: 0.843
+Pos Test loss: 2.355 Pos Test accuracy: 0.929
+=> Patients dying in the last state (originally surviving) : 0.069, count: 39/563
+=> Patients dying in the last state (originally dying) : 0.087, count: 49/563
+=> Patients dying in any state (originally surviving) : 0.076, count: 43/563
+=> Patients dying in any state (originally dying) : 0.103, count: 58/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 8000/10000
+Training loss: 2.671 Accuracy: 0.944
+State loss: 0.071
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 36.972 x100%
+Test loss: 2.360 Test accuracy: 0.926
+Neg Test loss: 2.438 Neg Test accuracy: 0.846
+Pos Test loss: 2.358 Pos Test accuracy: 0.927
+=> Patients dying in the last state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in the last state (originally dying) : 0.087, count: 49/563
+=> Patients dying in any state (originally surviving) : 0.064, count: 36/563
+=> Patients dying in any state (originally dying) : 0.099, count: 56/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 0/10000
+Training loss: 2.685 Accuracy: 0.957
+State loss: 0.064
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 56.457 x100%
+Test loss: 2.368 Test accuracy: 0.916
+Neg Test loss: 2.439 Neg Test accuracy: 0.846
+Pos Test loss: 2.373 Pos Test accuracy: 0.912
+=> Patients dying in the last state (originally surviving) : 0.073, count: 41/563
+=> Patients dying in the last state (originally dying) : 0.092, count: 52/563
+=> Patients dying in any state (originally surviving) : 0.089, count: 50/563
+=> Patients dying in any state (originally dying) : 0.107, count: 60/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 2000/10000
+Training loss: 2.680 Accuracy: 0.960
+State loss: 0.062
+Error rate Max Div (state_loss/max(states_gt)): 0.008 x100%
+Error rate RMSPE: 64.154 x100%
+Test loss: 2.363 Test accuracy: 0.923
+Neg Test loss: 2.438 Neg Test accuracy: 0.849
+Pos Test loss: 2.365 Pos Test accuracy: 0.920
+=> Patients dying in the last state (originally surviving) : 0.067, count: 38/563
+=> Patients dying in the last state (originally dying) : 0.107, count: 60/563
+=> Patients dying in any state (originally surviving) : 0.083, count: 47/563
+=> Patients dying in any state (originally dying) : 0.124, count: 70/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.009, count: 5/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.009, count: 5/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 4000/10000
+Training loss: 2.735 Accuracy: 0.941
+State loss: 0.119
+Error rate Max Div (state_loss/max(states_gt)): 0.002 x100%
+Error rate RMSPE: 46.178 x100%
+Test loss: 2.366 Test accuracy: 0.919
+Neg Test loss: 2.442 Neg Test accuracy: 0.845
+Pos Test loss: 2.358 Pos Test accuracy: 0.928
+=> Patients dying in the last state (originally surviving) : 0.067, count: 38/563
+=> Patients dying in the last state (originally dying) : 0.098, count: 55/563
+=> Patients dying in any state (originally surviving) : 0.083, count: 47/563
+=> Patients dying in any state (originally dying) : 0.110, count: 62/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 6000/10000
+Training loss: 2.674 Accuracy: 0.962
+State loss: 0.063
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 30.463 x100%
+Test loss: 2.360 Test accuracy: 0.926
+Neg Test loss: 2.444 Neg Test accuracy: 0.841
+Pos Test loss: 2.357 Pos Test accuracy: 0.928
+=> Patients dying in the last state (originally surviving) : 0.067, count: 38/563
+=> Patients dying in the last state (originally dying) : 0.105, count: 59/563
+=> Patients dying in any state (originally surviving) : 0.089, count: 50/563
+=> Patients dying in any state (originally dying) : 0.121, count: 68/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.005, count: 3/563
+### ###
+Step: 8000/10000
+Training loss: 2.687 Accuracy: 0.932
+State loss: 0.065
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 71.856 x100%
+Test loss: 2.370 Test accuracy: 0.916
+Neg Test loss: 2.450 Neg Test accuracy: 0.834
+Pos Test loss: 2.361 Pos Test accuracy: 0.924
+=> Patients dying in the last state (originally surviving) : 0.071, count: 40/563
+=> Patients dying in the last state (originally dying) : 0.098, count: 55/563
+=> Patients dying in any state (originally surviving) : 0.083, count: 47/563
+=> Patients dying in any state (originally dying) : 0.114, count: 64/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.009, count: 5/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 0/10000
+Training loss: 2.668 Accuracy: 0.968
+State loss: 0.059
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 67.041 x100%
+Test loss: 2.372 Test accuracy: 0.912
+Neg Test loss: 2.445 Neg Test accuracy: 0.840
+Pos Test loss: 2.351 Pos Test accuracy: 0.934
+=> Patients dying in the last state (originally surviving) : 0.044, count: 25/563
+=> Patients dying in the last state (originally dying) : 0.082, count: 46/563
+=> Patients dying in any state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in any state (originally dying) : 0.092, count: 52/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 2000/10000
+Training loss: 2.684 Accuracy: 0.953
+State loss: 0.057
+Error rate Max Div (state_loss/max(states_gt)): 0.009 x100%
+Error rate RMSPE: 147.119 x100%
+Test loss: 2.364 Test accuracy: 0.922
+Neg Test loss: 2.439 Neg Test accuracy: 0.846
+Pos Test loss: 2.348 Pos Test accuracy: 0.937
+=> Patients dying in the last state (originally surviving) : 0.076, count: 43/563
+=> Patients dying in the last state (originally dying) : 0.096, count: 54/563
+=> Patients dying in any state (originally surviving) : 0.085, count: 48/563
+=> Patients dying in any state (originally dying) : 0.107, count: 60/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 4000/10000
+Training loss: 2.672 Accuracy: 0.963
+State loss: 0.066
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 82.700 x100%
+Test loss: 2.366 Test accuracy: 0.919
+Neg Test loss: 2.441 Neg Test accuracy: 0.844
+Pos Test loss: 2.358 Pos Test accuracy: 0.927
+=> Patients dying in the last state (originally surviving) : 0.083, count: 47/563
+=> Patients dying in the last state (originally dying) : 0.103, count: 58/563
+=> Patients dying in any state (originally surviving) : 0.087, count: 49/563
+=> Patients dying in any state (originally dying) : 0.119, count: 67/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 6000/10000
+Training loss: 2.693 Accuracy: 0.946
+State loss: 0.058
+Error rate Max Div (state_loss/max(states_gt)): 0.008 x100%
+Error rate RMSPE: 58.592 x100%
+Test loss: 2.372 Test accuracy: 0.912
+Neg Test loss: 2.440 Neg Test accuracy: 0.845
+Pos Test loss: 2.356 Pos Test accuracy: 0.930
+=> Patients dying in the last state (originally surviving) : 0.083, count: 47/563
+=> Patients dying in the last state (originally dying) : 0.092, count: 52/563
+=> Patients dying in any state (originally surviving) : 0.094, count: 53/563
+=> Patients dying in any state (originally dying) : 0.108, count: 61/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 8000/10000
+Training loss: 2.671 Accuracy: 0.960
+State loss: 0.062
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 42.788 x100%
+Test loss: 2.365 Test accuracy: 0.921
+Neg Test loss: 2.439 Neg Test accuracy: 0.845
+Pos Test loss: 2.377 Pos Test accuracy: 0.908
+=> Patients dying in the last state (originally surviving) : 0.059, count: 33/563
+=> Patients dying in the last state (originally dying) : 0.094, count: 53/563
+=> Patients dying in any state (originally surviving) : 0.069, count: 39/563
+=> Patients dying in any state (originally dying) : 0.108, count: 61/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 0/10000
+Training loss: 2.683 Accuracy: 0.964
+State loss: 0.060
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 77.089 x100%
+Test loss: 2.359 Test accuracy: 0.926
+Neg Test loss: 2.439 Neg Test accuracy: 0.846
+Pos Test loss: 2.360 Pos Test accuracy: 0.925
+=> Patients dying in the last state (originally surviving) : 0.059, count: 33/563
+=> Patients dying in the last state (originally dying) : 0.099, count: 56/563
+=> Patients dying in any state (originally surviving) : 0.067, count: 38/563
+=> Patients dying in any state (originally dying) : 0.108, count: 61/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 2000/10000
+Training loss: 2.672 Accuracy: 0.964
+State loss: 0.060
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 64.166 x100%
+Test loss: 2.364 Test accuracy: 0.920
+Neg Test loss: 2.448 Neg Test accuracy: 0.838
+Pos Test loss: 2.358 Pos Test accuracy: 0.928
+=> Patients dying in the last state (originally surviving) : 0.028, count: 16/563
+=> Patients dying in the last state (originally dying) : 0.085, count: 48/563
+=> Patients dying in any state (originally surviving) : 0.032, count: 18/563
+=> Patients dying in any state (originally dying) : 0.094, count: 53/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.007, count: 4/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 4000/10000
+Training loss: 2.666 Accuracy: 0.939
+State loss: 0.055
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 36.826 x100%
+Test loss: 2.371 Test accuracy: 0.915
+Neg Test loss: 2.443 Neg Test accuracy: 0.843
+Pos Test loss: 2.356 Pos Test accuracy: 0.929
+=> Patients dying in the last state (originally surviving) : 0.053, count: 30/563
+=> Patients dying in the last state (originally dying) : 0.078, count: 44/563
+=> Patients dying in any state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in any state (originally dying) : 0.089, count: 50/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.005, count: 3/563
+### ###
+Step: 6000/10000
+Training loss: 2.685 Accuracy: 0.955
+State loss: 0.058
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 92.851 x100%
+Test loss: 2.371 Test accuracy: 0.915
+Neg Test loss: 2.443 Neg Test accuracy: 0.843
+Pos Test loss: 2.356 Pos Test accuracy: 0.930
+=> Patients dying in the last state (originally surviving) : 0.055, count: 31/563
+=> Patients dying in the last state (originally dying) : 0.099, count: 56/563
+=> Patients dying in any state (originally surviving) : 0.073, count: 41/563
+=> Patients dying in any state (originally dying) : 0.112, count: 63/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.005, count: 3/563
+### ###
+Step: 8000/10000
+Training loss: 2.706 Accuracy: 0.936
+State loss: 0.062
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 49.688 x100%
+Test loss: 2.362 Test accuracy: 0.924
+Neg Test loss: 2.442 Neg Test accuracy: 0.845
+Pos Test loss: 2.354 Pos Test accuracy: 0.931
+=> Patients dying in the last state (originally surviving) : 0.062, count: 35/563
+=> Patients dying in the last state (originally dying) : 0.110, count: 62/563
+=> Patients dying in any state (originally surviving) : 0.067, count: 38/563
+=> Patients dying in any state (originally dying) : 0.123, count: 69/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 0/10000
+Training loss: 2.708 Accuracy: 0.934
+State loss: 0.055
+Error rate Max Div (state_loss/max(states_gt)): 0.009 x100%
+Error rate RMSPE: 33.873 x100%
+Test loss: 2.358 Test accuracy: 0.927
+Neg Test loss: 2.439 Neg Test accuracy: 0.846
+Pos Test loss: 2.362 Pos Test accuracy: 0.923
+=> Patients dying in the last state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in the last state (originally dying) : 0.085, count: 48/563
+=> Patients dying in any state (originally surviving) : 0.067, count: 38/563
+=> Patients dying in any state (originally dying) : 0.096, count: 54/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 2000/10000
+Training loss: 2.667 Accuracy: 0.961
+State loss: 0.060
+Error rate Max Div (state_loss/max(states_gt)): 0.008 x100%
+Error rate RMSPE: 42.220 x100%
+Test loss: 2.370 Test accuracy: 0.915
+Neg Test loss: 2.441 Neg Test accuracy: 0.845
+Pos Test loss: 2.368 Pos Test accuracy: 0.918
+=> Patients dying in the last state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in the last state (originally dying) : 0.101, count: 57/563
+=> Patients dying in any state (originally surviving) : 0.071, count: 40/563
+=> Patients dying in any state (originally dying) : 0.114, count: 64/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.005, count: 3/563
+### ###
+Step: 4000/10000
+Training loss: 2.668 Accuracy: 0.945
+State loss: 0.056
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 64.907 x100%
+Test loss: 2.370 Test accuracy: 0.915
+Neg Test loss: 2.439 Neg Test accuracy: 0.846
+Pos Test loss: 2.361 Pos Test accuracy: 0.925
+=> Patients dying in the last state (originally surviving) : 0.064, count: 36/563
+=> Patients dying in the last state (originally dying) : 0.089, count: 50/563
+=> Patients dying in any state (originally surviving) : 0.071, count: 40/563
+=> Patients dying in any state (originally dying) : 0.099, count: 56/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 6000/10000
+Training loss: 2.663 Accuracy: 0.953
+State loss: 0.067
+Error rate Max Div (state_loss/max(states_gt)): 0.006 x100%
+Error rate RMSPE: 43.282 x100%
+Test loss: 2.366 Test accuracy: 0.919
+Neg Test loss: 2.444 Neg Test accuracy: 0.841
+Pos Test loss: 2.366 Pos Test accuracy: 0.920
+=> Patients dying in the last state (originally surviving) : 0.057, count: 32/563
+=> Patients dying in the last state (originally dying) : 0.094, count: 53/563
+=> Patients dying in any state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in any state (originally dying) : 0.105, count: 59/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 8000/10000
+Training loss: 2.666 Accuracy: 0.965
+State loss: 0.062
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 43.197 x100%
+Test loss: 2.373 Test accuracy: 0.912
+Neg Test loss: 2.442 Neg Test accuracy: 0.843
+Pos Test loss: 2.355 Pos Test accuracy: 0.930
+=> Patients dying in the last state (originally surviving) : 0.083, count: 47/563
+=> Patients dying in the last state (originally dying) : 0.083, count: 47/563
+=> Patients dying in any state (originally surviving) : 0.094, count: 53/563
+=> Patients dying in any state (originally dying) : 0.089, count: 50/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 0/10000
+Training loss: 2.673 Accuracy: 0.965
+State loss: 0.062
+Error rate Max Div (state_loss/max(states_gt)): 0.005 x100%
+Error rate RMSPE: 49.795 x100%
+Test loss: 2.369 Test accuracy: 0.917
+Neg Test loss: 2.454 Neg Test accuracy: 0.832
+Pos Test loss: 2.362 Pos Test accuracy: 0.923
+=> Patients dying in the last state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in the last state (originally dying) : 0.105, count: 59/563
+=> Patients dying in any state (originally surviving) : 0.076, count: 43/563
+=> Patients dying in any state (originally dying) : 0.119, count: 67/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.002, count: 1/563
+### ###
+Step: 2000/10000
+Training loss: 2.672 Accuracy: 0.969
+State loss: 0.058
+Error rate Max Div (state_loss/max(states_gt)): 0.008 x100%
+Error rate RMSPE: 95.071 x100%
+Test loss: 2.364 Test accuracy: 0.921
+Neg Test loss: 2.449 Neg Test accuracy: 0.837
+Pos Test loss: 2.362 Pos Test accuracy: 0.923
+=> Patients dying in the last state (originally surviving) : 0.060, count: 34/563
+=> Patients dying in the last state (originally dying) : 0.101, count: 57/563
+=> Patients dying in any state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in any state (originally dying) : 0.121, count: 68/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.000, count: 0/563
+=> Patients dying in the last state (originally dying) : 0.004, count: 2/563
+=> Patients dying in any state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in any state (originally dying) : 0.005, count: 3/563
+### ###
+Step: 4000/10000
+Training loss: 2.671 Accuracy: 0.958
+State loss: 0.051
+Error rate Max Div (state_loss/max(states_gt)): 0.010 x100%
+Error rate RMSPE: 56.760 x100%
+Test loss: 2.360 Test accuracy: 0.925
+Neg Test loss: 2.447 Neg Test accuracy: 0.839
+Pos Test loss: 2.356 Pos Test accuracy: 0.929
+=> Patients dying in the last state (originally surviving) : 0.064, count: 36/563
+=> Patients dying in the last state (originally dying) : 0.119, count: 67/563
+=> Patients dying in any state (originally surviving) : 0.085, count: 48/563
+=> Patients dying in any state (originally dying) : 0.137, count: 77/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.002, count: 1/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 6000/10000
+Training loss: 2.670 Accuracy: 0.962
+State loss: 0.053
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 63.363 x100%
+Test loss: 2.371 Test accuracy: 0.914
+Neg Test loss: 2.455 Neg Test accuracy: 0.830
+Pos Test loss: 2.361 Pos Test accuracy: 0.924
+=> Patients dying in the last state (originally surviving) : 0.066, count: 37/563
+=> Patients dying in the last state (originally dying) : 0.110, count: 62/563
+=> Patients dying in any state (originally surviving) : 0.078, count: 44/563
+=> Patients dying in any state (originally dying) : 0.123, count: 69/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.004, count: 2/563
+### ###
+Step: 8000/10000
+Training loss: 2.699 Accuracy: 0.936
+State loss: 0.057
+Error rate Max Div (state_loss/max(states_gt)): 0.007 x100%
+Error rate RMSPE: 44.876 x100%
+Test loss: 2.366 Test accuracy: 0.920
+Neg Test loss: 2.443 Neg Test accuracy: 0.842
+Pos Test loss: 2.356 Pos Test accuracy: 0.930
+=> Patients dying in the last state (originally surviving) : 0.059, count: 33/563
+=> Patients dying in the last state (originally dying) : 0.089, count: 50/563
+=> Patients dying in any state (originally surviving) : 0.071, count: 40/563
+=> Patients dying in any state (originally dying) : 0.099, count: 56/563
+Complete trajectory results
+=> Patients dying in the last state (originally surviving) : 0.004, count: 2/563
+=> Patients dying in the last state (originally dying) : 0.002, count: 1/563
+=> Patients dying in any state (originally surviving) : 0.005, count: 3/563
+=> Patients dying in any state (originally dying) : 0.005, count: 3/563
