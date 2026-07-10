@@ -15,7 +15,7 @@ from sklearn.metrics import accuracy_score,confusion_matrix
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open("/home/amridul/mimic/RL-for-Sepsis/feedback_classifier_DT/logs/json/observations.json") as f:
+with open("data/observations.json") as f:
   obs=json.load(f)
 
 X=np.array(obs[0])
@@ -77,7 +77,7 @@ class Mortality(nn.Module):
 input_dim = X.shape[1]
 model = Mortality(input_dim)
 model.to(device)
-model.load_state_dict(torch.load('/home/amridul/mimic/RL-for-Sepsis/feedback_classifier_DT/nnclsfier/NNMortalityborder.pth'))
+model.load_state_dict(torch.load('data/NNMortalityborder.pth'))
 
 
 #To make the prediction

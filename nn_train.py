@@ -13,7 +13,7 @@ import json
 from tqdm import tqdm
 from itertools import chain
 import matplotlib.pyplot as plt
-with open("logs/json/observations.json") as f:
+with open("data/observations.json") as f:
   obs=json.load(f)
 X=np.array(obs[0])
 y=np.array(obs[1])
@@ -77,15 +77,15 @@ for epoch in tqdm(range(num_epochs)):
     loss.backward()
     optimizer.step()
     if epoch % 25 == 0:
-        torch.save(model.state_dict(),"nn_model/NNmodel500.pt")
+        torch.save(model.state_dict(),"data/NNmodel500.pt")
 
 y_pred = torch.argmax(model(X_val), dim=1).numpy()
 accuracy = accuracy_score(y_val.numpy(), y_pred)
 
 
 print("Accuracy:", accuracy)
-# torch.save(model,"nn_model/NNmodel500_2.pt")
-torch.save(model.state_dict(),"nn_model/NNmodel500.pt")
+# torch.save(model,"data/NNmodel500_2.pt")
+torch.save(model.state_dict(),"data/NNmodel500.pt")
 
 cf=confusion_matrix(y_val.numpy(), y_pred)
 # create a figure and axis

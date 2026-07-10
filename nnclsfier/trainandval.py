@@ -17,7 +17,7 @@ from sklearn.preprocessing import StandardScaler
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open("/content/drive/MyDrive/observations.json") as f:
+with open("data/observations.json") as f:
   obs=json.load(f)
 X=np.array(obs[0])
 y=np.array(obs[1])
@@ -114,7 +114,7 @@ for epoch in range(num_epochs):
     loss.backward()
     optimizer.step()
 
-torch.save(model.state_dict(), '/content/drive/MyDrive/Research/NNMortalityborder.pth')
+torch.save(model.state_dict(), 'data/NNMortalityborder.pth')
 plt.plot(loss_list)
 
 with torch.no_grad():

@@ -1,58 +1,88 @@
-# Reinforced Sequential Decision-Making for Sepsis Treatment: The PosNegDM Framework with Mortality Classifier and Transformer
+<div align="center">
 
-This folder contains the code for the paper "Reinforced Sequential Decision-Making for Sepsis Treatment: The PosNegDM Framework with Mortality Classifier and Transformer."
+# 🩺 PosNegDM: Reinforced Sequential Decision-Making for Sepsis Treatment
 
-The paper titled "Sepsis Treatment Using Machine Learning: A Transformer-Based Decision-Making Framework" introduces a novel approach to sepsis treatment by leveraging machine learning techniques. The primary focus of the paper is to address the challenges associated with sepsis management, a life-threatening condition with high mortality rates, by proposing the POSNEGDM framework.
+**A transformer-based decision-maker with a mortality classifier that learns from positive _and_ negative demonstrations to recommend sepsis treatments.**
 
-## Using this code
+Dipesh Tamboli · Jiayu Chen · Kiran Pranesh Jotheeswaran · Denny Yu · Vaneet Aggarwal
 
-To use this code, you will need to install the required dependencies. You can do this by running the following command:
+_IEEE Journal of Biomedical and Health Informatics (JBHI), 2024_
+
+[![arXiv](https://img.shields.io/badge/arXiv-2403.07309-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.07309)
+[![IEEE Xplore](https://img.shields.io/badge/IEEE%20Xplore-10472521-00629b?logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/10472521)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+</div>
+
+---
+
+## 💡 Overview
+
+Sepsis is a life-threatening condition with high mortality, and treatment decisions are sequential and highly patient-specific. **PosNegDM** — *"Reinforcement Learning with Positive and Negative Demonstrations for Sequential Decision-Making"* — frames sepsis treatment as offline sequential decision-making. It couples a **causal transformer** (a Decision-Transformer-style policy over returns, states, and actions) with a **mortality classifier** that steers the policy toward survival-positive trajectories. Across comparisons with Decision Transformer and Behavioral Cloning baselines, PosNegDM substantially improves simulated patient survival.
+
+## 🧠 Framework
+
+<div align="center">
+<img src="assets/framework.png" width="82%" alt="PosNegDM architecture: returns/states/actions embedded and fed to a causal transformer that predicts the next state and action, with a mortality classifier at each step">
+</div>
+
+Returns (`R`), states (`S`), and actions (`a`) are embedded with positional/timestep encodings and passed through a **causal transformer**; linear decoders predict the next state `Ŝ` and action `â`, and a **mortality classifier** predicts the survival signal `m` at each step, guiding the model toward positive outcomes.
+
+## 🚀 Getting started
+
+Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt        # minimal deps; see environment.yml for the exact frozen env
 ```
 
-We have provided a sample dataset in the `data` folder for demonstration purposes. You can replace this dataset with the actual data from [https://physionet.org/content/mimiciii/1.4/](https://physionet.org/content/mimiciii/1.4/). We cannot provide the actual data due to licensing restrictions.
+A small **sample dataset** is provided in [`data/`](data) for a quick demonstration. For real experiments, use the MIMIC-III database — [physionet.org/content/mimiciii/1.4](https://physionet.org/content/mimiciii/1.4/) — which we cannot redistribute due to its licensing.
 
-
-Once you have installed the dependencies and prepared the data, you can run the code by executing the following command:
+**Train the decision-maker:**
 
 ```bash
 python train.py
 ```
 
+## 🧩 Mortality classifier
 
+The mortality classifier is trained on trajectory **observations** exported from the decision-making pipeline. These are stored as `data/observations.json` — a JSON list `[X_train, labels, X_test]` of feature vectors and their outcome labels (produced from the MIMIC-III trajectories; not redistributable). Place your `observations.json` under `data/`, then:
 
-## Key contributions and actions of the paper include:
-1. **Introduction of POSNEGDM Framework**:
-   - Introduces the POSNEGDM framework, which stands for "Reinforcement Learning with Positive and Negative Demonstrations for Sequential Decision-Making."
-   - Utilizes a transformer-based model and a mortality classifier to optimize treatment decisions for sepsis patients.
-   
-2. **Improving Patient Outcomes**:
-   - Demonstrates that the POSNEGDM framework significantly enhances patient survival rates, saving a high percentage of patients compared to established machine learning algorithms.
-   - Shows promising results in improving sepsis treatment outcomes and potentially reducing healthcare costs.
-
-3. **Personalized Treatment Decisions**:
-   - Incorporates individual patient characteristics and expert actions through reinforcement learning to tailor treatment plans.
-   - Utilizes a mortality classifier with high accuracy to guide treatment decisions towards positive outcomes.
-
-4. **Comparative Analysis**:
-   - Compares the performance of the POSNEGDM framework with existing machine learning algorithms, such as Decision Transformer and Behavioral Cloning, showcasing superior results in terms of patient survival rates.
-
-5. **Future Research Directions**:
-   - Discusses the implications of the results and outlines potential avenues for future research in the domain of sepsis treatment.
-   - Emphasizes the importance of deploying the model in clinical practice and integrating it with existing healthcare systems for seamless implementation.
-
-Overall, the paper aims to revolutionize sepsis treatment by introducing a data-driven and personalized approach that leverages machine learning to optimize treatment decisions, improve patient outcomes, and contribute to enhanced patient care in the context of sepsis management.
-
-## Citation
-
+```bash
+python nnclsfier/trainandval.py    # train the mortality classifier (with BorderlineSMOTE balancing)
+python nnclsfier/predmort.py       # evaluate a trained classifier (loads data/NNMortalityborder.pth)
+python nn_train.py                 # standalone classifier training variant
 ```
+
+## 📦 Repository structure
+
+| Path | Description |
+|------|-------------|
+| `train.py` | Main entry point — trains the PosNegDM decision-maker |
+| `dualsight/` | Decision-Transformer-style stack: `models/` (`decision_transformer.py`, `trajectory_gpt2.py`, `mlp_bc.py`), `training/`, `evaluation/` |
+| `nnclsfier/` | Mortality classifier — `trainandval.py` (train), `predmort.py` (evaluate) |
+| `nn_train.py` | Standalone mortality-classifier training script |
+| `data/` | Sample data (`sample_data.csv`) and a pretrained weight (`NNfinal.pth`) |
+| `utils.py` | Helper utilities |
+| `environment.yml` | Full frozen conda environment |
+
+## ⚙️ Requirements
+
+Developed on **PyTorch 2.3** / Python 3.10. `requirements.txt` lists the minimal packages (torch, transformers, numpy, pandas, scikit-learn, imbalanced-learn, matplotlib, tqdm); `environment.yml` captures the exact frozen environment.
+
+## 📚 Citation
+
+```bibtex
 @article{tamboli2024reinforced,
-  title={Reinforced Sequential Decision-Making for Sepsis Treatment: The POSNEGDM Framework with Mortality Classifier and Transformer},
-  author={Tamboli, Dipesh and Chen, Jiayu and Jotheeswaran, Kiran Pranesh and Yu, Denny and Aggarwal, Vaneet},
-  journal={IEEE Journal of Biomedical and Health Informatics},
-  year={2024},
-  publisher={IEEE}
+  title   = {Reinforced Sequential Decision-Making for Sepsis Treatment: The PosNegDM Framework with Mortality Classifier and Transformer},
+  author  = {Tamboli, Dipesh and Chen, Jiayu and Jotheeswaran, Kiran Pranesh and Yu, Denny and Aggarwal, Vaneet},
+  journal = {IEEE Journal of Biomedical and Health Informatics},
+  year    = {2024},
+  publisher = {IEEE},
+  doi     = {10.1109/JBHI.2024.3377214}
 }
 ```
+
+## 📄 License
+
+Released under the [MIT License](LICENSE).
